@@ -69,10 +69,6 @@ Run the dashboard:
 
 ```bash
 
-
-
-
-
 ## Data Visualizations
 
 ### 1. Daily System Load
