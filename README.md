@@ -68,24 +68,23 @@ python uac_analysis.py
 Run the dashboard:
 
 ```bash
+python -m streamlit run app.py
+```
 
 ## Data Visualizations
 
 ### 1. Daily System Load
+
 ![Daily System Load](UAC_Project_Output/Chart_1_Daily_System_Load.png)
 
 ### 2. Weekly System Load
+
 ![Weekly System Load](UAC_Project_Output/Chart_2_Weekly_System_Load.png)
 
 ### 3. CBP Custody vs HHS Care
+
 ![CBP vs HHS](UAC_Project_Output/Chart_3_CBP_vs_HHS.png)
 
 ### 4. Net Daily Intake
+
 ![Net Daily Intake](UAC_Project_Output/Chart_4_Net_Daily_Intake.png)
-
-python -m streamlit run app.py
-```
-
-## Expected Outcome
-An interactive analytics dashboard that helps explore UAC program trends and understand changes in system capacity and care load over time.
-
